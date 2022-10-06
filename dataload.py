@@ -44,3 +44,4 @@ class Dataload:
     def get_repairtime(self, file_name):
         repair_time = np.loadtxt(self.route + file_name, dtype=int)
         return repair_time
+
